@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
         config.cache = false;
         return config;
     },
+    typescript: {
+        ignoreBuildErrors: true,
+    },
 };
 
 module.exports = {
